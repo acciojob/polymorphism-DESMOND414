@@ -3,13 +3,15 @@ package com.driver;
 
 class Product{
    public int product(int x, int y) {
-    
+    return 1;
    }
-  public int product(int x, int y, int z) {
-    
-  }
-  public double product(double x, double y) {
    
+  public int product(int x, int y, int z) {
+    return 2;
+  }
+   
+  public double product(double x, double y) {
+   return 3;
   }
   
 }
